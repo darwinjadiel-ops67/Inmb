@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos - Estamos aquí para ayudarte a encontrar tu hogar ideal">
+    <title>Contacto - Inmobiliaria Premium</title>
+    
+    
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <!-- NAVEGACIZN -->
+    <nav class="barra-navegacion">
+        <div class="contenedor-nav">
+            <a href="index.html" class="logo">
+                Premium<span>Home</span>
+            </a>
+            <ul class="menu-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ENCABEZADO DE PAGINA -->
+    <section class="hero">
+        <div class="contenido-hero">
+            <h1>Contáctanos</h1>
+            <p>Estamos listos para ayudarte a encontrar tu hogar ideal</p>
+        </div>
+    </section>
+
+    <!-- INFORMACION DE CONTACTO -->
+    <section class="contenedor">
+        <div class="titulo-seccion">
+            <p class="subtitulo">Estamos Aquí Para Ti</p>
+            <h2>Múltiples Formas de Comunicarte</h2>
+        </div>
+
+        <div class="grilla-tarjetas">
+            <div class="item-valor">
+                <div class="icono-valor">📞</div>
+                <h4>Teléfono</h4>
+                <p class="texto-grande">
+                    +1 (809) 555-0100
+                </p>
+                <p>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                <p>Sáb: 9:00 AM - 1:00 PM</p>
+            </div>
+
+            <div class="item-valor">
+                <div class="icono-valor">✉️</div>
+                <h4>Correo Electrónico</h4>
+                <p class="texto-grande">
+                    info@premiumhome.com
+                </p>
+                <p>Respondemos en menos de 24 horas</p>
+            </div>
+
+            <div class="item-valor">
+                <div class="icono-valor">📍</div>
+                <h4>Oficina Principal</h4>
+                <p class="texto-grande">
+                    Av. Principal #123
+                </p>
+                <p>Santo Domingo, República Dominicana</p>
+                <p>Código Postal: 10101</p>
+            </div>
+
+            <div class="item-valor">
+                <div class="icono-valor">🕐</div>
+                <h4>Horario de Atención</h4>
+                <p class="texto-grande">
+                    Lun - Vie: 9:00 AM - 6:00 PM
+                </p>
+                <p>Sábados: 9:00 AM - 1:00 PM</p>
+                <p>Domingos: Cerrado</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="contenedor fondo-claro">
+        <div class="titulo-seccion">
+            <p class="subtitulo">Envíanos un Mensaje</p>
+            <h2>Formulario de Contacto</h2>
+            <p class="parrafo-descripcion">
+                Completa el siguiente formulario y uno de nuestros asesores se pondrá en contacto 
+                contigo lo antes posible para atender tus necesidades.
+            </p>
+        </div>
+
+        <div class="contenedor-contacto">
+            <!-- FORMULARIO -->
+            <div>
+                <form action="#" method="POST" class="formulario-contacto">
+                    
+                    <div class="grupo-formulario">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input 
+                            type="text" 
+                            id="nombre" 
+                            name="nombre" 
+                            placeholder="Ej: Juan Pérez" 
+                            required>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="correo">Correo Electrónico *</label>
+                        <input 
+                            type="email" 
+                            id="correo" 
+                            name="correo" 
+                            placeholder="ejemplo@correo.com" 
+                            required>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="telefono">Teléfono</label>
+                        <input 
+                            type="tel" 
+                            id="telefono" 
+                            name="telefono" 
+                            placeholder="+1 (809) 000-0000">
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="asunto">Asunto *</label>
+                        <input 
+                            type="text" 
+                            id="asunto" 
+                            name="asunto" 
+                            placeholder="¿En qué podemos ayudarte?" 
+                            required>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="interes">Estoy Interesado en:</label>
+                        <select id="interes" name="interes">
+                            <option value="">Selecciona una opción</option>
+                            <option value="comprar-casa">Comprar una Casa</option>
+                            <option value="comprar-apartamento">Comprar un Apartamento</option>
+                            <option value="comprar-villa">Comprar una Villa</option>
+                            <option value="vender">Vender mi Propiedad</option>
+                            <option value="invertir">Inversión Inmobiliaria</option>
+                            <option value="construccion">Construcción o Remodelación</option>
+                            <option value="financiamiento">Información de Financiamiento</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea 
+                            id="mensaje" 
+                            name="mensaje" 
+                            placeholder="Cuéntanos más sobre lo que necesitas..." 
+                            required></textarea>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label class="label-checkbox">
+                            <input type="checkbox" name="acepto" required>
+                            <span>
+                                Acepto la política de privacidad y el tratamiento de mis datos *
+                            </span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="boton boton-primario margen-superior-grande">
+                        Enviar Mensaje
+                    </button>
+
+                    <p class="margen-superior-grande texto-centro">
+                        * Campos obligatorios
+                    </p>
+                </form>
+            </div>
+
+            <!-- INFORMACION ADICIONAL -->
+            <div class="info-contacto">
+                <h3>Información de Contacto</h3>
+
+                <div class="item-info">
+                    <strong>🏢 Dirección Completa</strong>
+                    <p>
+                        Avenida Principal #123<br>
+                        Edificio Premium, 2do Piso<br>
+                        Sector Bella Vista<br>
+                        Santo Domingo, D.N.<br>
+                        República Dominicana
+                    </p>
+                </div>
+
+                <div class="item-info">
+                    <strong>📞 Números de Contacto</strong>
+                    <p>
+                        Oficina: +1 (809) 555-0100<br>
+                        Móvil: +1 (809) 555-0150<br>
+                        Urgencias: +1 (809) 555-0199
+                    </p>
+                </div>
+
+                <div class="item-info">
+                    <strong>✉️ Correos Electrónicos</strong>
+                    <p>
+                        General: info@premiumhome.com<br>
+                        Ventas: ventas@premiumhome.com<br>
+                        Soporte: soporte@premiumhome.com
+                    </p>
+                </div>
+
+                <div class="item-info">
+                    <strong>🕐 Horario de Atención</strong>
+                    <p>
+                        Lunes a Viernes: 9:00 AM - 6:00 PM<br>
+                        Sábados: 9:00 AM - 1:00 PM<br>
+                        Domingos: Cerrado
+                    </p>
+                </div>
+
+                <div class="item-info">
+                    <strong>🌐 Redes Sociales</strong>
+                    <p>
+                        Facebook: /PremiumHomeRD<br>
+                        Instagram: @premiumhome_rd<br>
+                        LinkedIn: /company/premium-home
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UBICACIÓN CON MAPA -->
+    <section class="contenedor">
+        <div class="titulo-seccion">
+            <p class="subtitulo">Encuéntranos</p>
+            <h2>Nuestra Ubicación</h2>
+        </div>
+
+        <div class="contenedor-mapa">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2977165658247!2d-69.93141668509114!3d18.473462287448806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f04a701e85%3A0x75e5af617f8e7e3f!2sSanto%20Domingo%2C%20Dominican%20Republic!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s" 
+                width="100%" 
+                height="450" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="caja-info">
+            <h3>¿Cómo Llegar?</h3>
+            <p>
+                Estamos ubicados en el corazón de Santo Domingo, con fácil acceso desde las principales 
+                avenidas de la ciudad. Contamos con amplio estacionamiento para visitantes. Si vienes 
+                en transporte público, las rutas B1, C2 y D5 paran a solo una cuadra de nuestra oficina.
+            </p>
+        </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="contenedor fondo-claro">
+        <div class="titulo-seccion">
+            <p class="subtitulo">FAQ</p>
+            <h2>Preguntas Frecuentes</h2>
+        </div>
+
+        <div class="grilla-valores">
+            <div class="item-valor item-texto-izquierda">
+                <h4>¿Necesito cita previa?</h4>
+                <p>
+                    Aunque aceptamos visitas sin cita, recomendamos agendar previamente para 
+                    garantizar que un asesor esté disponible para atenderte personalmente.
+                </p>
+            </div>
+
+            <div class="item-valor item-texto-izquierda">
+                <h4>¿Ofrecen tours virtuales?</h4>
+                <p>
+                    Sí, todos nuestros proyectos cuentan con tours virtuales 360° que puedes 
+                    solicitar por correo electrónico o teléfono.
+                </p>
+            </div>
+
+            <div class="item-valor item-texto-izquierda">
+                <h4>¿Cuánto tiempo tarda la respuesta?</h4>
+                <p>
+                    Nos comprometemos a responder todos los mensajes en menos de 24 horas hábiles. 
+                    Por teléfono la respuesta suele ser inmediata durante nuestro horario de atención.
+                </p>
+            </div>
+
+            <div class="item-valor item-texto-izquierda">
+                <h4>¿Tienen oficinas en otras ciudades?</h4>
+                <p>
+                    Actualmente nuestra oficina principal está en Santo Domingo, pero atendemos 
+                    proyectos en todo el país.
+                </p>
+            </div>
+
+            <div class="item-valor item-texto-izquierda">
+                <h4>¿Hay costo por la consulta inicial?</h4>
+                <p>
+                    No, la primera consulta es completamente gratuita y sin compromiso. 
+                    Queremos conocerte y entender tus necesidades.
+                </p>
+            </div>
+
+            <div class="item-valor item-texto-izquierda">
+                <h4>¿Qué documentos debo llevar?</h4>
+                <p>
+                    Para la primera reunión no necesitas documentos. Si decides avanzar con una 
+                    compra, te indicaremos los documentos específicos según tu caso.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LLAMADO A LA ACCIÓN FINAL -->
+    <section class="contenedor texto-centro seccion-padding">
+        <h2>¿Prefieres Hablar Directamente?</h2>
+        <p class="texto-grande">
+            Llámanos ahora o visita nuestra oficina sin compromiso
+        </p>
+        <div class="grupo-botones">
+            <a href="tel:+18095550100" class="boton boton-primario">Llamar Ahora</a>
+            <a href="mailto:info@premiumhome.com" class="boton boton-borde">Enviar Email</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenido-footer">
+            <div class="seccion-footer">
+                <h3>Premium Home</h3>
+                <p>Tu socio de confianza en bienes raíces. Creando hogares, construyendo futuros.</p>
+            </div>
+
+            <div class="seccion-footer">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="seccion-footer">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>📍 Av. Principal #123, Santo Domingo</li>
+                    <li>📞 +1 (809) 555-0100</li>
+                    <li>✉️ info@premiumhome.com</li>
+                    <li>🕐 Lun - Vie: 9:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-inferior">
+            <p>&copy; 2025 Premium Home. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
