@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contáctanos - Estamos aquí para ayudarte a encontrar tu hogar ideal">
-    <title>Contacto - Inmobiliaria Premium</title>
-    
-    
-    
-    <!-- Estilos CSS -->
+    <title>Contacto - PremiumHome
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -46,7 +42,7 @@
 
         <div class="grilla-tarjetas">
             <div class="item-valor">
-                <div class="icono-valor">📞</div>
+                <div class="icono-valor form">📞</div>
                 <h4>Teléfono</h4>
                 <p class="texto-grande">
                     +1 (809) 555-0100
@@ -87,106 +83,34 @@
     </section>
 
     <!-- FORMULARIO DE CONTACTO -->
-    <section class="contenedor fondo-claro">
-        <div class="titulo-seccion">
-            <p class="subtitulo">Envíanos un Mensaje</p>
-            <h2>Formulario de Contacto</h2>
-            <p class="parrafo-descripcion">
-                Completa el siguiente formulario y uno de nuestros asesores se pondrá en contacto 
-                contigo lo antes posible para atender tus necesidades.
-            </p>
+        <div class="contenedor-contacto">       
+ <section class="contenedor fondo-claro">
+    <div class="titulo-seccion">
+        <p class="subtitulo">Envíanos un Mensaje</p>
+        <h2>Formulario de Contacto</h2>
+    </div>
+
+    <div class="contenedor-contacto-simple">
+        <div class="imagen-contacto">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800" alt="Edificio">
         </div>
 
-        <div class="contenedor-contacto">
-            <!-- FORMULARIO -->
-            <div>
-                <form action="#" method="POST" class="formulario-contacto">
-                    
-                    <div class="grupo-formulario">
-                        <label for="nombre">Nombre Completo *</label>
-                        <input 
-                            type="text" 
-                            id="nombre" 
-                            name="nombre" 
-                            placeholder="Ej: Juan Pérez" 
-                            required>
-                    </div>
-
-                    <div class="grupo-formulario">
-                        <label for="correo">Correo Electrónico *</label>
-                        <input 
-                            type="email" 
-                            id="correo" 
-                            name="correo" 
-                            placeholder="ejemplo@correo.com" 
-                            required>
-                    </div>
-
-                    <div class="grupo-formulario">
-                        <label for="telefono">Teléfono</label>
-                        <input 
-                            type="tel" 
-                            id="telefono" 
-                            name="telefono" 
-                            placeholder="+1 (809) 000-0000">
-                    </div>
-
-                    <div class="grupo-formulario">
-                        <label for="asunto">Asunto *</label>
-                        <input 
-                            type="text" 
-                            id="asunto" 
-                            name="asunto" 
-                            placeholder="¿En qué podemos ayudarte?" 
-                            required>
-                    </div>
-
-                    <div class="grupo-formulario">
-                        <label for="interes">Estoy Interesado en:</label>
-                        <select id="interes" name="interes">
-                            <option value="">Selecciona una opción</option>
-                            <option value="comprar-casa">Comprar una Casa</option>
-                            <option value="comprar-apartamento">Comprar un Apartamento</option>
-                            <option value="comprar-villa">Comprar una Villa</option>
-                            <option value="vender">Vender mi Propiedad</option>
-                            <option value="invertir">Inversión Inmobiliaria</option>
-                            <option value="construccion">Construcción o Remodelación</option>
-                            <option value="financiamiento">Información de Financiamiento</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </div>
-
-                    <div class="grupo-formulario">
-                        <label for="mensaje">Mensaje *</label>
-                        <textarea 
-                            id="mensaje" 
-                            name="mensaje" 
-                            placeholder="Cuéntanos más sobre lo que necesitas..." 
-                            required></textarea>
-                    </div>
-
-                    <div class="grupo-formulario">
-                        <label class="label-checkbox">
-                            <input type="checkbox" name="acepto" required>
-                            <span>
-                                Acepto la política de privacidad y el tratamiento de mis datos *
-                            </span>
-                        </label>
-                    </div>
-
-                    <button type="submit" class="boton boton-primario margen-superior-grande">
-                        Enviar Mensaje
-                    </button>
-
-                    <p class="margen-superior-grande texto-centro">
-                        * Campos obligatorios
-                    </p>
-                </form>
-            </div>
+        <div class="formulario-simple">
+            <h2>Contáctanos</h2>
+            <input type="text" placeholder="Tu Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <input type="tel" placeholder="Telefono">
+            <textarea rows="6" placeholder="Escribe tu mensaje aqui"></textarea>
+            <a href="#" class="boton boton-primario">Enviar Mensaje</a>
+        </div>
+    </div>
+</section>
 
             <!-- INFORMACION ADICIONAL -->
+             
+             <center><h3>Información de Contacto</h3></center>
             <div class="info-contacto">
-                <h3>Información de Contacto</h3>
+                
 
                 <div class="item-info">
                     <strong>🏢 Dirección Completa</strong>
@@ -238,7 +162,7 @@
         </div>
     </section>
 
-    <!-- UBICACIÓN CON MAPA -->
+    <!-- MAPA -->
     <section class="contenedor">
         <div class="titulo-seccion">
             <p class="subtitulo">Encuéntranos</p>
@@ -250,9 +174,7 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2977165658247!2d-69.93141668509114!3d18.473462287448806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f04a701e85%3A0x75e5af617f8e7e3f!2sSanto%20Domingo%2C%20Dominican%20Republic!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s" 
                 width="100%" 
                 height="450" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
+>
             </iframe>
         </div>
 
@@ -324,7 +246,7 @@
         </div>
     </section>
 
-    <!-- LLAMADO A LA ACCIÓN FINAL -->
+    <!-- LLAMADO A LA ACCION FINAL -->
     <section class="contenedor texto-centro seccion-padding">
         <h2>¿Prefieres Hablar Directamente?</h2>
         <p class="texto-grande">
@@ -332,7 +254,7 @@
         </p>
         <div class="grupo-botones">
             <a href="tel:+18095550100" class="boton boton-primario">Llamar Ahora</a>
-            <a href="mailto:info@premiumhome.com" class="boton boton-borde">Enviar Email</a>
+            <a href="" class="boton boton-borde">Enviar Email</a>
         </div>
     </section>
 
