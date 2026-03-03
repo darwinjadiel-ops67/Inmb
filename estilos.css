@@ -816,6 +816,10 @@ footer{
     min-width: 250px;
 }
 
+.seccion-footer p{
+    color: #FFFFFF;
+}
+
 .seccion-footer h3{
     color: var(--color-secundario);
     margin-bottom: var(--espacio-2);
@@ -840,7 +844,10 @@ footer{
     margin-top: var(--espacio-3);
     padding-top: var(--espacio-3);
     border-top: 1px solid rgba(255,255,255,0.1);
-    color: white;
+}
+
+.footer-inferior p{
+    color: #FFFFFF;
 }
 
 .tarjeta-servicio-completa {
@@ -1027,6 +1034,7 @@ footer{
     font-size: 1.2rem;
     margin-bottom: 2rem;
     color: var(--color-secundario);
+}
 
 /* Número destacado para estadísticas */
 .numero-destacado {
