@@ -821,7 +821,7 @@ footer{
 }
 
 .seccion-footer h3{
-    color: var(--color-secundario);
+    color: #B68743;
     margin-bottom: var(--espacio-2);
 }
 
@@ -1033,7 +1033,7 @@ footer{
 .texto-grande-2 {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: var(--color-secundario);
+    color: #523E1E;
 }
 
 /* Número destacado para estadísticas */
