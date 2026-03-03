@@ -840,6 +840,7 @@ footer{
     margin-top: var(--espacio-3);
     padding-top: var(--espacio-3);
     border-top: 1px solid rgba(255,255,255,0.1);
+    color: white;
 }
 
 .tarjeta-servicio-completa {
@@ -1021,6 +1022,11 @@ footer{
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
+
+.texto-grande-2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--color-secundario);
 
 /* Número destacado para estadísticas */
 .numero-destacado {
