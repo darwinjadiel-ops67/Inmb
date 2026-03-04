@@ -255,7 +255,7 @@ a {
 
 .boton-borde{
     border: 2px solid var(--color-secundario);
-    color: var(--color-secundario);
+    color: #523D1E;
     background-color: transparent;
     transition: var(--transicion-normal);
 }
